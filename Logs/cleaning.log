@@ -1,0 +1,34 @@
+[2023-03-04 15:55:45] Data Cleaning and Preprocessing has started
+[2023-03-04 15:56:03] Data Cleaning and Preprocessing has started
+[2023-03-04 15:56:54] Data Cleaning and Preprocessing has started
+[2023-03-04 15:56:55] ID column has dropper
+[2023-03-04 15:56:55] PAY_0 and default.payment.next.month are renamed to PAY_1 and DEFAULT
+[2023-03-04 15:56:55] Duplicates removed
+[2023-03-04 15:56:55] Unspecified values in education and marriage have been transformed
+[2023-03-04 15:56:55] Unspecified values in PAY_1,2,3,4,5,6 have been transformed
+[2023-03-04 15:56:55] Divided dataset to X and y. X==> Features, y==> Target
+[2023-03-04 15:56:55] Using SMOTE to balance the dataset
+[2023-03-04 15:56:55] Original dataset shape is Counter({0: 23335, 1: 6630})
+[2023-03-04 15:56:55] Resampled dataset shape is Counter({1: 23335, 0: 23335})
+[2023-03-04 15:56:55] Scaling has started
+[2023-03-04 15:56:55] Scaled the data as X_scaled
+[2023-03-04 15:56:55] Saving the SCALE object. Will use this Scale object for scaling the user_input later
+[2023-03-04 15:56:55] Saved the scale object in Models\scaler.pkl 
+[2023-03-04 15:56:55] Saving the cleaned Data
+[2023-03-04 15:56:56] Saved the cleaned data in Data\cleanedData\CleanData.csv
+[2023-03-04 15:59:03] Data Cleaning and Preprocessing has started
+[2023-03-04 15:59:03] ID column has dropper
+[2023-03-04 15:59:03] PAY_0 and default.payment.next.month are renamed to PAY_1 and DEFAULT
+[2023-03-04 15:59:03] Duplicates removed
+[2023-03-04 15:59:03] Unspecified values in education and marriage have been transformed
+[2023-03-04 15:59:03] Unspecified values in PAY_1,2,3,4,5,6 have been transformed
+[2023-03-04 15:59:03] Divided dataset to X and y. X==> Features, y==> Target
+[2023-03-04 15:59:03] Using SMOTE to balance the dataset
+[2023-03-04 15:59:03] Original dataset shape is Counter({0: 23335, 1: 6630})
+[2023-03-04 15:59:03] Resampled dataset shape is Counter({1: 23335, 0: 23335})
+[2023-03-04 15:59:03] Scaling has started
+[2023-03-04 15:59:04] Scaled the data as X_scaled
+[2023-03-04 15:59:04] Saving the SCALE object. Will use this Scale object for scaling the user_input later
+[2023-03-04 15:59:04] Saved the scale object in Models\scaler.pkl 
+[2023-03-04 15:59:04] Saving the cleaned Data
+[2023-03-04 15:59:05] Saved the cleaned data in Data\cleanedData\CleanData.csv

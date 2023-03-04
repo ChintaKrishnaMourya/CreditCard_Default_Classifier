@@ -1,0 +1,49 @@
+[2023-03-04 14:47:49] 
+Runnig the app for prediction!!
+
+[2023-03-04 14:47:49] Imported scaler object for scaling the input
+[2023-03-04 14:47:49] Imported model for predicting the input
+[2023-03-04 14:51:41] 
+Running the app for prediction!!
+
+[2023-03-04 14:51:41] Imported scaler object for scaling the input
+[2023-03-04 14:51:41] Imported model for predicting the input
+[2023-03-04 15:50:06] 
+Running the app for prediction!!
+
+[2023-03-04 15:50:06] Imported scaler object for scaling the input
+[2023-03-04 15:50:06] Imported model for predicting the input
+[2023-03-04 16:18:39] 
+Running the app for prediction!!
+
+[2023-03-04 16:18:39] Imported scaler object for scaling the input
+[2023-03-04 16:18:39] Imported model for predicting the input
+[2023-03-04 16:18:51] 
+Running the app for prediction!!
+
+[2023-03-04 16:18:51] Imported scaler object for scaling the input
+[2023-03-04 16:18:51] Imported model for predicting the input
+[2023-03-04 16:20:00] 
+Running the app for prediction!!
+
+[2023-03-04 16:20:00] Imported scaler object for scaling the input
+[2023-03-04 16:20:00] Imported model for predicting the input
+[2023-03-04 16:22:13] Taking the input from user
+[2023-03-04 16:22:13] Input given by user = [[ 2.0000e+04  2.0000e+00  1.0000e+00  2.0000e+00  2.2000e+01 -1.0000e+00
+  -1.0000e+00  2.0000e+00 -1.0000e+00 -1.0000e+00 -1.0000e+00  1.4028e+04
+   1.6484e+04  1.5800e+04  1.6341e+04  1.6675e+04  0.0000e+00  3.0000e+03
+   0.0000e+00  1.6741e+04  3.3400e+02  0.0000e+00  0.0000e+00]]
+[2023-03-04 16:22:13] Prediction is [1]
+[2023-03-04 17:57:59] 
+Running the app for prediction!!
+
+[2023-03-04 17:57:59] Imported scaler object for scaling the input
+[2023-03-04 17:58:00] Imported model for predicting the input
+[2023-03-04 17:58:51] Taking the input from user
+[2023-03-04 17:58:51] Input given by user = [[ 4.64574747e+08  1.00000000e+00  1.00000000e+00  1.00000000e+00
+   6.70000000e+01 -1.00000000e+00 -1.00000000e+00 -1.00000000e+00
+  -1.00000000e+00 -1.00000000e+00 -1.00000000e+00  3.46436300e+06
+   3.63400000e+03  4.53630000e+04  6.57320000e+04  5.32650000e+04
+   5.23630000e+04  3.21213000e+05  3.42440000e+04  2.42525000e+05
+   2.34200000e+03  2.53400000e+03  4.25423000e+05]]
+[2023-03-04 17:58:51] Prediction is [0]
