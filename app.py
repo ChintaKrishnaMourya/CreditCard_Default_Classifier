@@ -11,7 +11,7 @@ app = Flask(__name__)
 log_file_path = "./Logs/prediction.log"
 
 try:
-    log_message("\nRunning the app for prediction!!\n", log_file_path)
+    log_message("Running the app for prediction!!\n", log_file_path)
 
     with open(r"Models\scaler.pkl","rb") as fs:
         scaler = pickle.load(fs)
