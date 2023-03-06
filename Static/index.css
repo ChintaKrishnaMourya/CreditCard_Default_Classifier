@@ -1,5 +1,115 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display:grid;
+  place-items: center;
+  padding: 1px;
+}
+.container{
+  display: flex;
+}
+label{
+  display: block;
+  font-weight: bolder;
+  color: rgb(10, 10, 10);
+  margin-bottom: 5px;
+}
+fieldset{
+  padding: 20px;
+  margin: 0px 2px;
+}
+.group1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.form-group input,select{
+  border: 0px solid;
+  outline: 0px solid;
+  border-bottom: 1px solid gray;
+}
+.bill{
+  padding: 10px 0px;
+  margin: 20px 0px;
+}
+.bill h5{
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+  color: rgb(100, 100, 100);
+}
+.bills{
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+.bills input{
+  margin-top: 8px;
+  max-width: 80px;
+  border: 0px solid;
+  outline: 0px solid;
+  border-bottom: 1px solid gray;
+  height: 20px;
+}
+.bills .form-group{
+  margin: 0px 5px;
+}
+button{
+  padding: 20px;
+  text-transform: uppercase;
+  margin: 20px auto;
+  display: block;
+}
+header{
+  background-image: url("https://th.bing.com/th/id/R.21abe8c9ab418e2d1914ce94a69c912b?rik=7Vo1qzXuKu3w8w&riu=http%3a%2f%2fwww.livingrichwithcoupons.com%2fwp-content%2fuploads%2f2015%2f09%2fget-out-of-credit-card-debt.jpg&ehk=xjKzmPmhiFx%2bjImn%2bCAojviuHRu%2fUAP5aDFaB35EQW0%3d&risl=&pid=ImgRaw&r=0");
+  background-color: rgb(106, 106, 106);
+  background-blend-mode:multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+  display: grid;
+  place-items: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+  margin-top: -50px;
+}
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
   margin: 0; 
+}
+@media screen and (max-width:600px){
+  header{
+    /* background-image: none; */
+    width: 100vw;
+    text-align: center;
+    font-size: 8px;
+    margin-bottom: 20px;
+  }
+  .container{
+    flex-direction:column;
+    width: 90vw;
+  }
+  .bills{
+    flex-direction: column;
+  }
+  .bills input{
+    max-width: 100%;
+  }
+  .form-group{
+    margin: 20px;
+    width: 100%;
+  }
+  input,select{
+    width: 100%;
+    margin: 5px 0px;
+    background-color: transparent;
+  }
 }

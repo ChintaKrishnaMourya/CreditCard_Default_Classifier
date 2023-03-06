@@ -64,7 +64,7 @@ try:
             except Exception as e:
                 log_message(f"An exception occurred: {str(e)}", log_file_path)
                 traceback.print_exc()
-                return jsonify({'error': str(e)})
+                return render_template("Index.html",result="Invalid Input!")
         else:
             return render_template('Index.html')
 
@@ -74,4 +74,4 @@ except Exception as e:
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

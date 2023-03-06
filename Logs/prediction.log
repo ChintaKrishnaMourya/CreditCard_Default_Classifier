@@ -47,3 +47,171 @@ Running the app for prediction!!
    5.23630000e+04  3.21213000e+05  3.42440000e+04  2.42525000e+05
    2.34200000e+03  2.53400000e+03  4.25423000e+05]]
 [2023-03-04 17:58:51] Prediction is [0]
+[2023-03-06 13:03:36] Running the app for prediction!!
+
+[2023-03-06 13:03:36] Imported scaler object for scaling the input
+[2023-03-06 13:03:36] Imported model for predicting the input
+[2023-03-06 13:05:56] Taking the input from user
+[2023-03-06 13:05:56] Input given by user = [[ 6.66630000e+04  1.00000000e+00  1.00000000e+00  1.00000000e+00
+   3.40000000e+01 -1.00000000e+00 -1.00000000e+00 -1.00000000e+00
+  -1.00000000e+00 -1.00000000e+00 -1.00000000e+00  5.34636346e+09
+   3.63636300e+06  3.33300000e+03  6.36363000e+05  3.63634000e+05
+   6.36360000e+04  3.63630000e+04  6.36367330e+07  3.36360000e+04
+   6.36363636e+08  6.36300000e+03  3.64630000e+04]]
+[2023-03-06 13:05:56] Prediction is [0]
+[2023-03-06 13:08:53] Running the app for prediction!!
+
+[2023-03-06 13:08:53] Imported scaler object for scaling the input
+[2023-03-06 13:08:53] Imported model for predicting the input
+[2023-03-06 13:11:21] Taking the input from user
+[2023-03-06 13:11:21] Input given by user = [[ 6.4363000e+04  1.0000000e+00  1.0000000e+00  1.0000000e+00
+   6.4364000e+04 -1.0000000e+00 -1.0000000e+00 -1.0000000e+00
+  -1.0000000e+00 -1.0000000e+00 -1.0000000e+00  4.7457000e+04
+   7.4747000e+04  5.7737000e+04  7.3474300e+05  7.3473370e+06
+   7.4373473e+07  6.3463600e+05  6.3637000e+04  6.3700000e+02
+   6.3477000e+04  6.3747000e+04  6.3474780e+06]]
+[2023-03-06 13:11:21] Prediction is [0]
+[2023-03-06 15:39:08] Running the app for prediction!!
+
+[2023-03-06 15:39:08] Imported scaler object for scaling the input
+[2023-03-06 15:39:08] Imported model for predicting the input
+[2023-03-06 17:18:46] Running the app for prediction!!
+
+[2023-03-06 17:18:46] Imported scaler object for scaling the input
+[2023-03-06 17:18:47] Imported model for predicting the input
+[2023-03-06 17:20:15] Running the app for prediction!!
+
+[2023-03-06 17:20:15] Imported scaler object for scaling the input
+[2023-03-06 17:20:15] Imported model for predicting the input
+[2023-03-06 17:20:32] Taking the input from user
+[2023-03-06 17:20:32] Input given by user = [[ 2.0e+08  1.0e+00  1.0e+00  1.0e+00  3.4e+01 -1.0e+00 -1.0e+00 -1.0e+00
+  -1.0e+00 -1.0e+00 -1.0e+00  0.0e+00  0.0e+00  0.0e+00  0.0e+00  0.0e+00
+   0.0e+00  0.0e+00  0.0e+00  0.0e+00  0.0e+00  0.0e+00  0.0e+00]]
+[2023-03-06 17:20:32] Prediction is [1]
+[2023-03-06 17:21:18] Taking the input from user
+[2023-03-06 17:21:18] An exception occurred: could not convert string to float: ''
+[2023-03-06 17:22:15] Running the app for prediction!!
+
+[2023-03-06 17:22:15] Imported scaler object for scaling the input
+[2023-03-06 17:22:15] Imported model for predicting the input
+[2023-03-06 17:22:27] Taking the input from user
+[2023-03-06 17:22:27] Input given by user = [[-2.09484e+05  1.00000e+00  1.00000e+00  1.00000e+00  8.48400e+03
+  -1.00000e+00 -1.00000e+00 -1.00000e+00 -1.00000e+00 -1.00000e+00
+  -1.00000e+00  0.00000e+00  0.00000e+00  0.00000e+00  0.00000e+00
+   0.00000e+00  0.00000e+00  0.00000e+00  0.00000e+00  0.00000e+00
+   0.00000e+00  0.00000e+00  0.00000e+00]]
+[2023-03-06 17:22:27] Prediction is [0]
+[2023-03-06 17:22:43] Taking the input from user
+[2023-03-06 17:22:43] Input given by user = [[-45.   1.   1.   1. -89.  -1.  -1.  -1.  -1.  -1.  -1.   0.   0.   0.
+    0.   0.   0.   0.   0.   0.   0.   0.   0.]]
+[2023-03-06 17:22:43] Prediction is [1]
+[2023-03-06 17:23:02] Taking the input from user
+[2023-03-06 17:23:02] Input given by user = [[-5.677e+03  1.000e+00  1.000e+00  1.000e+00  6.500e+01 -1.000e+00
+  -1.000e+00 -1.000e+00 -1.000e+00 -1.000e+00 -1.000e+00  0.000e+00
+   0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00
+   0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00]]
+[2023-03-06 17:23:02] Prediction is [0]
+[2023-03-06 17:23:11] Taking the input from user
+[2023-03-06 17:23:11] Input given by user = [[-4.560e+02  1.000e+00  1.000e+00  1.000e+00 -6.895e+03 -1.000e+00
+  -1.000e+00 -1.000e+00 -1.000e+00 -1.000e+00 -1.000e+00  0.000e+00
+   0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00
+   0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00]]
+[2023-03-06 17:23:11] Prediction is [1]
+[2023-03-06 17:23:47] Taking the input from user
+[2023-03-06 17:23:47] Input given by user = [[-4.560e+02  1.000e+00  1.000e+00  1.000e+00 -6.895e+03 -1.000e+00
+  -1.000e+00 -1.000e+00 -1.000e+00 -1.000e+00 -1.000e+00  0.000e+00
+   0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00
+   0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00]]
+[2023-03-06 17:23:47] Prediction is [1]
+[2023-03-06 17:23:59] Taking the input from user
+[2023-03-06 17:23:59] Input given by user = [[-78.   1.   1.   1. -12.  -1.  -1.  -1.  -1.  -1.  -1.   0.   0.   0.
+    0.   0.   0.   0.   0.   0.   0.   0.   0.]]
+[2023-03-06 17:23:59] Prediction is [1]
+[2023-03-06 17:24:10] Taking the input from user
+[2023-03-06 17:24:10] Input given by user = [[-78.   1.   1.   1. -12.  -1.  -1.  -1.  -1.  -1.  -1.   0.   0.   0.
+    0.   0.   0.   0.   0.   0.   0.   0.   0.]]
+[2023-03-06 17:24:10] Prediction is [1]
+[2023-03-06 17:25:05] Running the app for prediction!!
+
+[2023-03-06 17:25:05] Imported scaler object for scaling the input
+[2023-03-06 17:25:05] Imported model for predicting the input
+[2023-03-06 17:26:47] Running the app for prediction!!
+
+[2023-03-06 17:26:47] Imported scaler object for scaling the input
+[2023-03-06 17:26:47] Imported model for predicting the input
+[2023-03-06 17:27:28] Taking the input from user
+[2023-03-06 17:27:28] Input given by user = [[233.   1.   1.   1.  12.  -1.  -1.  -1.  -1.  -1.  -1.   0.   0.   0.
+    0.   0.   0.   0.   0.   0.   0.   0.   0.]]
+[2023-03-06 17:27:28] Prediction is [1]
+[2023-03-06 17:29:55] Running the app for prediction!!
+
+[2023-03-06 17:29:55] Imported scaler object for scaling the input
+[2023-03-06 17:29:55] Imported model for predicting the input
+[2023-03-06 17:31:23] Running the app for prediction!!
+
+[2023-03-06 17:31:23] Imported scaler object for scaling the input
+[2023-03-06 17:31:24] Imported model for predicting the input
+[2023-03-06 17:31:37] Taking the input from user
+[2023-03-06 17:31:37] Input given by user = [[123.   1.   1.   1. 455.  -1.  -1.  -1.  -1.  -1.  -1.   0.   0.   0.
+    0.   0.   0.   0.   0.   0.   0.   0.   0.]]
+[2023-03-06 17:31:37] Prediction is [0]
+[2023-03-06 17:32:18] Taking the input from user
+[2023-03-06 17:32:18] Input given by user = [[123.   1.   1.   1. 455.  -1.  -1.  -1.  -1.  -1.  -1.   0.   0.   0.
+    0.   0.   0.   0.   0.   0.   0.   0.   0.]]
+[2023-03-06 17:32:18] Prediction is [0]
+[2023-03-06 17:32:29] Taking the input from user
+[2023-03-06 17:32:29] Input given by user = [[123.   1.   1.   1. 455.  -1.  -1.  -1.  -1.  -1.  -1.   0.   0.   0.
+    0.   0.   0.   0.   0.   0.   0.   0.   0.]]
+[2023-03-06 17:32:29] Prediction is [0]
+[2023-03-06 17:33:10] Taking the input from user
+[2023-03-06 17:33:10] Input given by user = [[123.   1.   1.   1. 455.  -1.  -1.  -1.  -1.  -1.  -1.   0.   0.   0.
+    0.   0.   0.   0.   0.   0.   0.   0.   0.]]
+[2023-03-06 17:33:10] Prediction is [0]
+[2023-03-06 17:33:17] Taking the input from user
+[2023-03-06 17:33:17] Input given by user = [[ 1.2334e+04  1.0000e+00  1.0000e+00  1.0000e+00  1.2200e+02 -1.0000e+00
+  -1.0000e+00 -1.0000e+00 -1.0000e+00 -1.0000e+00 -1.0000e+00  0.0000e+00
+   0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00
+   0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00]]
+[2023-03-06 17:33:17] Prediction is [0]
+[2023-03-06 17:33:27] Running the app for prediction!!
+
+[2023-03-06 17:33:27] Imported scaler object for scaling the input
+[2023-03-06 17:33:27] Imported model for predicting the input
+[2023-03-06 17:33:41] Taking the input from user
+[2023-03-06 17:33:41] Input given by user = [[ 1.233e+03  1.000e+00  1.000e+00  1.000e+00  1.233e+03 -1.000e+00
+  -1.000e+00 -1.000e+00 -1.000e+00 -1.000e+00 -1.000e+00  0.000e+00
+   0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00
+   0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00]]
+[2023-03-06 17:33:41] Prediction is [0]
+[2023-03-06 17:49:45] Running the app for prediction!!
+
+[2023-03-06 17:49:45] Imported scaler object for scaling the input
+[2023-03-06 17:49:45] Imported model for predicting the input
+[2023-03-06 17:52:05] Taking the input from user
+[2023-03-06 17:52:05] Input given by user = [[ 5.55440e+04  1.00000e+00  1.00000e+00  1.00000e+00  2.30000e+01
+  -1.00000e+00 -1.00000e+00 -1.00000e+00 -1.00000e+00 -1.00000e+00
+  -1.00000e+00  5.45500e+03  3.45455e+05  4.55550e+04  4.45630e+04
+   5.34550e+04  5.65460e+04  5.56500e+03  5.43546e+05  5.65600e+03
+   6.44600e+03  6.45660e+04  6.44000e+02]]
+[2023-03-06 17:52:05] Prediction is [0]
+[2023-03-06 17:54:24] Running the app for prediction!!
+
+[2023-03-06 17:54:24] Imported scaler object for scaling the input
+[2023-03-06 17:54:25] Imported model for predicting the input
+[2023-03-06 17:56:00] Running the app for prediction!!
+
+[2023-03-06 17:56:00] Imported scaler object for scaling the input
+[2023-03-06 17:56:00] Imported model for predicting the input
+[2023-03-06 17:56:01] Running the app for prediction!!
+
+[2023-03-06 17:56:01] Imported scaler object for scaling the input
+[2023-03-06 17:56:01] Imported model for predicting the input
+[2023-03-06 17:59:56] Taking the input from user
+[2023-03-06 17:59:56] Input given by user = [[ 5.0e+04  1.0e+00  1.0e+00  2.0e+00  2.5e+01  1.0e+00 -1.0e+00 -1.0e+00
+  -1.0e+00 -1.0e+00 -1.0e+00  0.0e+00  7.8e+02  0.0e+00  0.0e+00  0.0e+00
+   0.0e+00  7.8e+02  0.0e+00  0.0e+00  0.0e+00  0.0e+00  0.0e+00]]
+[2023-03-06 17:59:56] Prediction is [1]
+[2023-03-06 18:01:35] Running the app for prediction!!
+
+[2023-03-06 18:01:35] Imported scaler object for scaling the input
+[2023-03-06 18:01:35] Imported model for predicting the input
