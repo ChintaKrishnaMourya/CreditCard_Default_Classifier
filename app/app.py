@@ -9,23 +9,24 @@ import traceback
 
 app = Flask(__name__)
 log_file_path = "./Logs/prediction.log"
+log_file = open(log_file_path,"a")
 
 try:
-    log_message("Running the app for prediction!!\n", log_file_path)
+    log_message("Running the app for prediction!!\n", log_file)
 
     with open("./Models/scaler.pkl","rb") as fs:
         scaler = pickle.load(fs)
-    log_message("Imported scaler object for scaling the input", log_file_path )  
+    log_message("Imported scaler object for scaling the input", log_file)  
 
     with open("./Models/finalmodel.pkl","rb") as fm:
         model = pickle.load(fm)
-    log_message("Imported model for predicting the input", log_file_path)
+    log_message("Imported model for predicting the input", log_file)
 
     @app.route('/', methods=['POST','GET'])
     def predict():
         if request.method=='POST':
             try:
-                log_message("Taking the input from user", log_file_path)
+                log_message("Taking the input from user", log_file)
                 user_input = request.form
 
                 limit_bal = float(user_input['limit_bal'])
@@ -59,19 +60,20 @@ try:
 
                 X_scaled = scaler.transform(X)
                 prediction = model.predict(X_scaled)
-                log_message(f"Prediction is {prediction}",log_file_path)
+                log_message(f"Prediction is {prediction}",log_file)
                 return render_template("Index.html",result=prediction[0])
             except Exception as e:
-                log_message(f"An exception occurred: {str(e)}", log_file_path)
+                log_message(f"An exception occurred: {str(e)}", log_file)
                 traceback.print_exc()
                 return render_template("Index.html",result="Invalid Input!")
         else:
             return render_template('Index.html')
 
 except Exception as e:
-    log_message(f"An exception occurred: {str(e)}", log_file_path)
+    log_message(f"An exception occurred: {str(e)}", log_file)
     traceback.print_exc()
 
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
+    log_file.close()
