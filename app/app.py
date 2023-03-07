@@ -13,11 +13,11 @@ log_file_path = "./Logs/prediction.log"
 try:
     log_message("Running the app for prediction!!\n", log_file_path)
 
-    with open(r"Models\scaler.pkl","rb") as fs:
+    with open("./Models/scaler.pkl","rb") as fs:
         scaler = pickle.load(fs)
     log_message("Imported scaler object for scaling the input", log_file_path )  
 
-    with open(r"Models\finalmodel.pkl","rb") as fm:
+    with open("./Models/finalmodel.pkl","rb") as fm:
         model = pickle.load(fm)
     log_message("Imported model for predicting the input", log_file_path)
 
